@@ -1,0 +1,25 @@
+package cn.abc.b;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javafx.scene.chart.PieChart.Data;
+
+public class Test8 {
+	/**
+	 * @param args
+	 * 1.用Date的构造方法获取当前时间、初始化
+	 * 2.用SimpleDateFormat设置日期输出格式
+	 * 3.将Date用sm格式装进字符串
+	 */
+	public static void main(String[] args) {
+		//调用Date构造方法给d分配时间
+		Date d=new Date();
+		//设置日期显示格式
+		SimpleDateFormat sm=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		//将Date用sm格式装进字符串
+		String c=sm.format(d);
+		System.out.println(c);
+		
+	}
+}
