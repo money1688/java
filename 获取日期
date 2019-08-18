@@ -19,7 +19,6 @@ public class Test8 {
 		SimpleDateFormat sm=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		//将Date用sm格式装进字符串
 		String c=sm.format(d);
-		System.out.println(c);
-		
+		System.out.println(c);	
 	}
 }
